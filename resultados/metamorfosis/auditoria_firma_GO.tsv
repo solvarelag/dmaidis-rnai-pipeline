@@ -1,0 +1,78 @@
+go	nombre	ontologia	profundidad	genes_universo	frac_universo	p	k_entrenamiento	k_fondo	genes_entrenamiento	solo_proteasomales	metamorfico	generico
+GO:0032991	protein-containing complex	cellular_component	1	2138	0.2713	1.0027246573312013e-05	14	1892	Srp54k,alphaSnap,Pp1alpha-96A,Inr-a,Hsc70-3,Rpn7,gw,Rpt3,Vha36-1 (V-ATPasa D),Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),dre4,Vha55 (V-ATPasa B)	False	False	True
+GO:0005654	nucleoplasm	cellular_component	2	475	0.0603	7.73145511874805e-05	7	428	Srp54k,Rpn7,Rpt3,Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),dre4	False	False	True
+GO:0005488	binding	molecular_function	1	3777	0.4793	0.0001007164707635	16	3232	cact,Srp54k,alphaSnap,shi,Pp1alpha-96A,Inr-a,Hsc70-3,Rpn7,gw,Rpt3,Vha36-1 (V-ATPasa D),Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),dre4,Vha55 (V-ATPasa B)	False	False	True
+GO:0042626	ATPase-coupled transmembrane transporter activity	molecular_function	2	47	0.006	0.0001200506288823	3	36	Hsc70-3,Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	True
+GO:0000502	proteasome complex	cellular_component	3	38	0.0048	0.0001200506288823	3	36	Rpn7,Rpt3,Prosbeta5 (PSMB5)	True	False	True
+GO:0033178	proton-transporting two-sector ATPase complex, catalytic domain	cellular_component	3	8	0.001	0.0002020833789692	2	8	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	True
+GO:0033180	proton-transporting V-type ATPase, V1 domain	cellular_component	4	8	0.001	0.0002020833789692	2	8	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0007035	vacuolar acidification	biological_process	5	11	0.0014	0.0002020833789692	2	8	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0000221	vacuolar proton-transporting V-type ATPase, V1 domain	cellular_component	5	8	0.001	0.0002020833789692	2	8	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:1905369	endopeptidase complex	cellular_component	4	47	0.006	0.0002349595340788	3	45	Rpn7,Rpt3,Prosbeta5 (PSMB5)	True	False	False
+GO:0048499	synaptic vesicle membrane organization	biological_process	5	9	0.0011	0.0002593989786131	2	9	alphaSnap,shi	False	False	False
+GO:0042625	ATPase-coupled ion transmembrane transporter activity	molecular_function	3	13	0.0016	0.0002593989786131	2	9	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	True
+GO:0046961	proton-transporting ATPase activity, rotational mechanism	molecular_function	4	13	0.0016	0.0002593989786131	2	9	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0044769	ATPase activity, coupled to transmembrane movement of ions, rotational mechanism	molecular_function	4	13	0.0016	0.0002593989786131	2	9	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0033181	plasma membrane proton-transporting V-type ATPase complex	cellular_component	4	11	0.0014	0.0002593989786131	2	9	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0015399	primary active transmembrane transporter activity	molecular_function	4	60	0.0076	0.0002849295781071	3	48	Hsc70-3,Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0005515	protein binding	molecular_function	2	2053	0.2605	0.000307432280137	12	1749	cact,alphaSnap,shi,Pp1alpha-96A,Inr-a,Hsc70-3,Rpn7,gw,Vha36-1 (V-ATPasa D),ncm,Prosbeta5 (PSMB5),dre4	False	False	True
+GO:0033176	proton-transporting V-type ATPase complex	cellular_component	4	16	0.002	0.0003237214853339	2	10	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0051452	intracellular pH reduction	biological_process	4	14	0.0018	0.0003237214853339	2	10	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0016471	vacuolar proton-transporting V-type ATPase complex	cellular_component	5	16	0.002	0.0003237214853339	2	10	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0090533	cation-transporting ATPase complex	cellular_component	5	20	0.0025	0.0003950162868136	2	11	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0098533	ATPase dependent transmembrane transport complex	cellular_component	4	23	0.0029	0.0006503901083581	2	14	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0019829	ATPase-coupled monoatomic cation transmembrane transporter activity	molecular_function	3	21	0.0027	0.0006503901083581	2	14	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	True
+GO:1902494	catalytic complex	cellular_component	2	909	0.1153	0.0006556582050656	8	805	Pp1alpha-96A,Rpn7,Rpt3,Vha36-1 (V-ATPasa D),Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),Vha55 (V-ATPasa B)	False	False	True
+GO:1905368	peptidase complex	cellular_component	3	72	0.0091	0.0006990342260325	3	65	Rpn7,Rpt3,Prosbeta5 (PSMB5)	True	False	True
+GO:0031047	regulatory ncRNA-mediated gene silencing	biological_process	9	77	0.0098	0.0007979440468263	3	68	Inr-a,Hsc70-3,gw	False	False	False
+GO:0006885	regulation of pH	biological_process	2	22	0.0028	0.0008548715433013	2	16	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	True
+GO:0051453	regulation of intracellular pH	biological_process	3	22	0.0028	0.0008548715433013	2	16	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	True
+GO:0005829	cytosol	cellular_component	2	1021	0.1296	0.0008575430798396	8	837	cact,Srp54k,Pp1alpha-96A,Rpn7,Rpt3,Prosbeta5 (PSMB5),dre4,Vha55 (V-ATPasa B)	False	False	True
+GO:0043229	intracellular organelle	cellular_component	3	4331	0.5495	0.0010154470070694	16	3733	cact,Srp54k,alphaSnap,shi,Pp1alpha-96A,Inr-a,Hsc70-3,Rpn7,gw,Rpt3,Vha36-1 (V-ATPasa D),Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),dre4,Vha55 (V-ATPasa B)	False	False	True
+GO:0031981	nuclear lumen	cellular_component	5	725	0.092	0.0010263658825596	7	647	Srp54k,Rpn7,Rpt3,Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),dre4	False	False	False
+GO:0010498	proteasomal protein catabolic process	biological_process	6	182	0.0231	0.0010926452236447	4	173	Hsc70-3,Rpn7,Rpt3,Prosbeta5 (PSMB5)	False	False	False
+GO:0043226	organelle	cellular_component	2	4405	0.5589	0.0013001820166888	16	3791	cact,Srp54k,alphaSnap,shi,Pp1alpha-96A,Inr-a,Hsc70-3,Rpn7,gw,Rpt3,Vha36-1 (V-ATPasa D),Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),dre4,Vha55 (V-ATPasa B)	False	False	True
+GO:0005838	proteasome regulatory particle	cellular_component	2	19	0.0024	0.0013447700031049	2	20	Rpn7,Rpt3	True	False	True
+GO:0022624	proteasome accessory complex	cellular_component	2	21	0.0027	0.0013447700031049	2	20	Rpn7,Rpt3	True	False	True
+GO:0016469	proton-transporting two-sector ATPase complex	cellular_component	3	27	0.0034	0.0013447700031049	2	20	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	True
+GO:0070013	intracellular organelle lumen	cellular_component	4	1025	0.1301	0.0015257037381341	8	911	Srp54k,Hsc70-3,Rpn7,Rpt3,Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),dre4	False	False	False
+GO:0043233	organelle lumen	cellular_component	3	1025	0.1301	0.0015257037381341	8	911	Srp54k,Hsc70-3,Rpn7,Rpt3,Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),dre4	False	False	True
+GO:0031974	membrane-enclosed lumen	cellular_component	2	1025	0.1301	0.0015257037381341	8	911	Srp54k,Hsc70-3,Rpn7,Rpt3,Polr2B/RpII140,ncm,Prosbeta5 (PSMB5),dre4	False	False	True
+GO:0022853	active monoatomic ion transmembrane transporter activity	molecular_function	4	31	0.0039	0.0017819544304282	2	23	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0006366	transcription by RNA polymerase II	biological_process	7	103	0.0131	0.0021047248058024	3	95	Inr-a,Polr2B/RpII140,dre4	False	False	False
+GO:0016079	synaptic vesicle exocytosis	biological_process	4	30	0.0038	0.0022779363213533	2	26	alphaSnap,shi	False	False	False
+GO:0008355	olfactory learning	biological_process	5	32	0.0041	0.0024561760480489	2	27	shi,Pp1alpha-96A	False	False	False
+GO:0009057	macromolecule catabolic process	biological_process	4	419	0.0532	0.0028087483684244	5	376	Hsc70-3,Rpn7,gw,Rpt3,Prosbeta5 (PSMB5)	False	False	False
+GO:0045055	regulated exocytosis	biological_process	4	34	0.0043	0.0028318280965159	2	29	alphaSnap,shi	False	False	False
+GO:0022804	active transmembrane transporter activity	molecular_function	3	141	0.0179	0.0030363293943377	3	108	Hsc70-3,Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	True
+GO:0035194	regulatory ncRNA-mediated post-transcriptional gene silencing	biological_process	10	34	0.0043	0.0036589155537771	2	33	Hsc70-3,gw	False	False	False
+GO:0006354	DNA-templated transcription elongation	biological_process	7	32	0.0041	0.0036589155537771	2	33	Polr2B/RpII140,dre4	False	False	False
+GO:0008306	associative learning	biological_process	5	40	0.0051	0.0038812879604885	2	34	shi,Pp1alpha-96A	False	False	False
+GO:0140657	ATP-dependent activity	molecular_function	1	296	0.0376	0.0039871630481762	4	246	Hsc70-3,Rpt3,Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	True
+GO:0030163	protein catabolic process	biological_process	5	275	0.0349	0.0042256565682652	4	250	Hsc70-3,Rpn7,Rpt3,Prosbeta5 (PSMB5)	False	False	False
+GO:0071806	protein transmembrane transport	biological_process	3	35	0.0044	0.0043445299871659	2	36	Srp54k,Hsc70-3	False	False	True
+GO:0016607	nuclear speck	cellular_component	5	42	0.0053	0.004585336210149	2	37	Srp54k,ncm	False	False	False
+GO:0042048	olfactory behavior	biological_process	4	52	0.0066	0.004585336210149	2	37	shi,Pp1alpha-96A	False	False	False
+GO:0035770	ribonucleoprotein granule	cellular_component	3	152	0.0193	0.0051248905340491	3	130	Srp54k,gw,ncm	False	False	True
+GO:0097367	carbohydrate derivative binding	molecular_function	2	719	0.0912	0.0053277191639061	6	633	Srp54k,shi,Hsc70-3,Rpt3,Polr2B/RpII140,Vha55 (V-ATPasa B)	False	False	True
+GO:0046843	dorsal appendage formation	biological_process	3	43	0.0055	0.0053441176436354	2	40	cact,shi	False	False	True
+GO:0016441	post-transcriptional gene silencing	biological_process	9	42	0.0053	0.0053441176436354	2	40	Hsc70-3,gw	False	False	False
+GO:1902600	proton transmembrane transport	biological_process	5	49	0.0062	0.0053441176436354	2	40	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0010629	negative regulation of gene expression	biological_process	8	320	0.0406	0.0054930491208938	4	269	cact,Inr-a,Hsc70-3,gw	False	False	False
+GO:0015078	proton transmembrane transporter activity	molecular_function	5	54	0.0069	0.0056090613272488	2	41	Vha36-1 (V-ATPasa D),Vha55 (V-ATPasa B)	False	False	False
+GO:0007635	chemosensory behavior	biological_process	3	64	0.0081	0.0058799613614889	2	42	shi,Pp1alpha-96A	False	False	True
+GO:0006351	DNA-templated transcription	biological_process	6	145	0.0184	0.0059340229479429	3	137	Inr-a,Polr2B/RpII140,dre4	False	False	False
+GO:0017111	ribonucleoside triphosphate phosphatase activity	molecular_function	6	308	0.0391	0.0059415640951526	4	275	Srp54k,shi,Hsc70-3,Rpt3	False	False	False
+GO:0032984	protein-containing complex disassembly	biological_process	5	55	0.007	0.0061567867577079	2	43	alphaSnap,dre4	False	False	False
+GO:0099080	supramolecular complex	cellular_component	2	327	0.0415	0.0063338127586024	4	280	Srp54k,shi,gw,ncm	False	False	True
+GO:0000281	mitotic cytokinesis	biological_process	4	49	0.0062	0.0070225068505846	2	46	alphaSnap,shi	False	False	False
+GO:0007612	learning	biological_process	4	53	0.0067	0.0070225068505846	2	46	shi,Pp1alpha-96A	False	False	False
+GO:0043161	proteasome-mediated ubiquitin-dependent protein catabolic process	biological_process	7	155	0.0197	0.0073542446802321	3	148	Rpn7,Rpt3,Prosbeta5 (PSMB5)	True	False	False
+GO:0016462	pyrophosphatase activity	molecular_function	5	333	0.0423	0.0074348945546279	4	293	Srp54k,shi,Hsc70-3,Rpt3	False	False	False
+GO:0016817	hydrolase activity, acting on acid anhydrides	molecular_function	3	334	0.0424	0.007524573617909	4	294	Srp54k,shi,Hsc70-3,Rpt3	False	False	True
+GO:0016818	hydrolase activity, acting on acid anhydrides, in phosphorus-containing anhydrides	molecular_function	4	334	0.0424	0.007524573617909	4	294	Srp54k,shi,Hsc70-3,Rpt3	False	False	False
+GO:0005737	cytoplasm	cellular_component	2	3780	0.4796	0.0075255873410113	14	3193	cact,Srp54k,alphaSnap,shi,Pp1alpha-96A,Inr-a,Hsc70-3,Rpn7,gw,Rpt3,Vha36-1 (V-ATPasa D),Prosbeta5 (PSMB5),dre4,Vha55 (V-ATPasa B)	False	False	True
+GO:1901363	heterocyclic compound binding	molecular_function	3	795	0.1009	0.007879760576127	6	685	Srp54k,shi,Hsc70-3,Rpt3,Polr2B/RpII140,Vha55 (V-ATPasa B)	False	False	True
+GO:0016787	hydrolase activity	molecular_function	2	908	0.1152	0.0093888570045978	6	710	Srp54k,shi,Pp1alpha-96A,Hsc70-3,Rpt3,Prosbeta5 (PSMB5)	False	False	True
+GO:0007269	neurotransmitter secretion	biological_process	4	61	0.0077	0.009584184794652	2	54	alphaSnap,shi	False	False	False
+GO:0099643	signal release from synapse	biological_process	5	61	0.0077	0.009584184794652	2	54	alphaSnap,shi	False	False	False

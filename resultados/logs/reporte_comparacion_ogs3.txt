@@ -1,0 +1,18 @@
+universo filtrado: RefSeq 7881 | OGS3 8651
+iB letales (dali11 >= 80, 1499) en el ranking: RefSeq 961 | OGS3 1015 | solo OGS3 69 | solo RefSeq 15
+  RefSeq: genes letales en ranking 972, copias {1: 894, 2: 78}
+  OGS3: genes letales en ranking 1027, copias {1: 952, 2: 75}
+
+top100 compartido (por gen Dmai): 96/100; genes Dmai comunes 7171; Spearman de rank en comunes 0.992
+controles (rank RefSeq -> OGS3):
+  PSMB5: [25] -> [27]
+  Vha55: [216] -> [219]
+  Vha36-1: [125] -> [128]
+
+en el top100 OGS3 y no en el RefSeq: 4 (rank_refseq vacio = no estaba en el ranking RefSeq)
+                      rank  rank_refseq   dmel        iB  dali11  dali22  copias_dmai
+dmai_representativo                                                                  
+Dmai|Dalbulus_mai...    26        299.0   Rab6  iB_00268    90.0    90.0            1
+Dmai|Dalbulus_mai...    47          NaN    Cam  iB_09691    70.0    70.0            2
+Dmai|Dalbulus_mai...    60          NaN   atms  iB_02644   100.0   100.0            1
+Dmai|Dalbulus_mai...    74        195.0  salsa  iB_08598   100.0   100.0            1

@@ -1,0 +1,55 @@
+universo (letalidad + ortologo Dmai): 9147
+copias Dmai: {1: 7624, 2: 1027, 3: 496} (3 = >=3)
+tras filtro de copias: 8651 (riesgo_paralogo: 1027)
+imputados por columna: {'dali11': 181, 'dapi11': 499, 'dali22': 5223} | genes con >=1 imputacion: 5275
+entrenamiento mapeado: 17 genes Tcas; en fondo 1:1 con GO: 16; no mapeados: []
+fondo GO (1:1 con GO): 5680; terminos en la firma: 77
+sin dato -> 0: {'letalidad': 0, 'go': 0, 'expresion': 122, 'conservacion': 412}
+expresion: PRJNA318849 (3 corridas); sesgo_sexo |log2| > 2 en el universo: 1839
+
+sensibilidad sin dali22: top100 compartido 92/100; Spearman rank (todos) 0.961
+salen del top100 sin dali22:           rank  rank_sin_dali22     dmel  dali11  dali22
+tcas_tc                                                 
+TC000874    49              227  Vha14-1     0.0   100.0
+TC009998    63              189   CG7483    20.0   100.0
+TC002540    90              103    HDAC1    60.0   100.0
+TC030667    93              104      sqh    70.0   100.0
+TC003690    94              101    ND-24   100.0   100.0
+TC006775    98              140  Caf1-55    40.0   100.0
+TC004891    99              102     Cdk8   100.0   100.0
+TC000825   100              107      pit   100.0   100.0
+entran:           rank  rank_sin_dali22                                dmel     dali11     dali22
+tcas_tc                                                                                  
+TC012184   107               71                                pont  70.000000  70.000000
+TC000224   123               77                            CkIIbeta  70.000000  70.000000
+TC009074   127               54                               Vha13  55.555556  55.555556
+TC014562   145               93                               LysRS  70.000000  70.000000
+TC013759   165               94  eIF4E1,eIF4E3,eIF4E4,eIF4E5,eIF4E7  60.000000  60.000000
+TC008784   172               68                                eEF2  50.000000  50.000000
+TC014434   209               84                           Nfs1,Qtzl  50.000000  50.000000
+TC011692   240               97                              mEFTu1  33.333333  46.641368
+
+entrenamiento / controles en el ranking:
+  #   22/8651  Rpt3                     score=0.968 L=0.99 GO=0.96 E=0.92 C=1.00
+  #   27/8651  Prosbeta5 (PSMB5)        score=0.963 L=0.99 GO=0.97 E=0.99 C=0.85
+  #   67/8651  Hsc70-3                  score=0.941 L=0.99 GO=0.91 E=0.87 C=0.99
+  #   97/8651  dre4                     score=0.923 L=0.99 GO=0.92 E=0.84 C=0.88
+  #  128/8651  Vha36-1 (V-ATPasa D)     score=0.914 L=0.96 GO=0.84 E=0.93 C=0.92
+  #  135/8651  Pp1alpha-96A             score=0.912 L=0.99 GO=0.81 E=0.87 C=0.99
+  #  148/8651  Polr2B/RpII140           score=0.906 L=0.88 GO=0.89 E=0.89 C=0.99
+  #  158/8651  ncm                      score=0.902 L=0.99 GO=0.93 E=0.77 C=0.83
+  #  219/8651  Vha55 (V-ATPasa B)       score=0.884 L=0.87 GO=0.83 E=0.92 C=0.98
+  #  238/8651  Srp54k                   score=0.878 L=0.99 GO=0.89 E=0.58 C=0.98
+  #  242/8651  Rpn7                     score=0.876 L=0.99 GO=0.97 E=0.99 C=0.26
+  #  543/8651  alphaSnap                score=0.814 L=0.99 GO=0.70 E=0.58 C=0.95
+  #  682/8651  Rop                      score=0.792 L=0.99 GO=0.89 E=0.24 C=0.87  riesgo_paralogo
+  # 1134/8651  gw                       score=0.733 L=0.99 GO=0.70 E=0.59 C=0.40
+  # 1190/8651  cact                     score=0.728 L=0.99 GO=0.63 E=0.89 C=0.09
+  # 1306/8651  shi                      score=0.715 L=0.99 GO=0.56 E=0.32 C=0.90
+  # 2899/8651  Inr-a                    score=0.574 L=0.69 GO=0.70 E=0.60 C=0.02
+
+reparto del score (aporte medio en el top 50 vs. todos):
+  letalidad     top50=0.341  todos=0.175
+  go            top50=0.294  todos=0.150
+  expresion     top50=0.189  todos=0.099
+  conservacion  top50=0.142  todos=0.071

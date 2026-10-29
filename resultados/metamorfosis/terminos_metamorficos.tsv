@@ -1,0 +1,207 @@
+go	nombre	ontologia	conjunto	origen
+GO:0001737	establishment of imaginal disc-derived wing hair orientation	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0002165	instar larval or pupal development	biological_process	estricto	nombre:instar;nombre:pupa;nombre:pupal;semilla:GO:0002165
+GO:0007444	imaginal disc development	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007445	determination of imaginal disc primordium	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007446	imaginal disc growth	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007447	imaginal disc pattern formation	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007448	anterior/posterior pattern specification, imaginal disc	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007449	proximal/distal pattern formation, imaginal disc	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007450	dorsal/ventral pattern formation, imaginal disc	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007451	dorsal/ventral lineage restriction, imaginal disc	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007453	clypeo-labral disc morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007454	labial disc morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007455	eye-antennal disc morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007469	antennal development	biological_process	estricto	semilla:GO:0007444
+GO:0007470	prothoracic disc morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007472	wing disc morphogenesis	biological_process	estricto	nombre:wing disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552;semilla:GO:0035220
+GO:0007473	wing disc proximal/distal pattern formation	biological_process	estricto	nombre:wing disc;semilla:GO:0007444;semilla:GO:0035220
+GO:0007474	imaginal disc-derived wing vein specification	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0007475	apposition of dorsal and ventral imaginal disc-derived wing surfaces	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0007476	imaginal disc-derived wing morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0007477	notum development	biological_process	estricto	semilla:GO:0007444;semilla:GO:0035220
+GO:0007478	leg disc morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007479	leg disc proximal/distal pattern formation	biological_process	estricto	semilla:GO:0007444
+GO:0007480	imaginal disc-derived leg morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007481	haltere disc morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007482	haltere development	biological_process	estricto	semilla:GO:0007444
+GO:0007483	genital disc morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007484	imaginal disc-derived genitalia development	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007485	imaginal disc-derived male genitalia development	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007486	imaginal disc-derived female genitalia development	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0007487	analia development	biological_process	estricto	semilla:GO:0007444
+GO:0007488	histoblast morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007489	maintenance of imaginal histoblast diploidy	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007490	tergite morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007491	sternite morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007552	metamorphosis	biological_process	estricto	nombre:metamorphosis;semilla:GO:0007552
+GO:0007560	imaginal disc morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007561	imaginal disc eversion	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0007562	eclosion	biological_process	estricto	nombre:eclosion;semilla:GO:0007562
+GO:0007563	regulation of eclosion	biological_process	estricto	nombre:eclosion
+GO:0007594	puparial adhesion	biological_process	estricto	nombre:pupa
+GO:0008031	eclosion hormone activity	molecular_function	estricto	nombre:eclosion
+GO:0008056	ocellus development	biological_process	estricto	semilla:GO:0007444
+GO:0008062	eclosion rhythm	biological_process	estricto	nombre:eclosion;semilla:GO:0007562
+GO:0008084	imaginal disc growth factor receptor binding	molecular_function	estricto	nombre:imaginal disc
+GO:0008586	imaginal disc-derived wing vein morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0008587	imaginal disc-derived wing margin morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0010782	proboscis morphogenesis, labial disc-derived	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0010783	proboscis morphogenesis, eye-antennal disc-derived	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0010784	proboscis morphogenesis, clypeo-labral disc-derived	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0016335	morphogenesis of larval imaginal disc epithelium	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0016336	establishment or maintenance of polarity of larval imaginal disc epithelium	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0016348	imaginal disc-derived leg joint morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0035015	elongation of arista core	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0035016	elongation of arista lateral	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0035070	salivary gland histolysis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007552
+GO:0035073	pupariation	biological_process	estricto	nombre:pupa;semilla:GO:0002165
+GO:0035074	pupation	biological_process	estricto	nombre:pupa;semilla:GO:0002165
+GO:0035114	imaginal disc-derived appendage morphogenesis	biological_process	estricto	nombre:imaginal disc
+GO:0035161	imaginal disc lineage restriction	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0035200	leg disc anterior/posterior pattern formation	biological_process	estricto	semilla:GO:0007444
+GO:0035201	leg disc anterior/posterior lineage restriction	biological_process	estricto	semilla:GO:0007444
+GO:0035209	pupal development	biological_process	estricto	nombre:pupa;nombre:pupal;semilla:GO:0002165
+GO:0035210	prepupal development	biological_process	estricto	semilla:GO:0002165
+GO:0035213	clypeo-labral disc development	biological_process	estricto	semilla:GO:0007444
+GO:0035214	eye-antennal disc development	biological_process	estricto	semilla:GO:0007444
+GO:0035215	genital disc development	biological_process	estricto	semilla:GO:0007444
+GO:0035216	haltere disc development	biological_process	estricto	semilla:GO:0007444
+GO:0035217	labial disc development	biological_process	estricto	semilla:GO:0007444
+GO:0035218	leg disc development	biological_process	estricto	semilla:GO:0007444
+GO:0035219	prothoracic disc development	biological_process	estricto	semilla:GO:0007444
+GO:0035220	wing disc development	biological_process	estricto	nombre:wing disc;semilla:GO:0007444;semilla:GO:0035220
+GO:0035221	genital disc pattern formation	biological_process	estricto	semilla:GO:0007444
+GO:0035222	wing disc pattern formation	biological_process	estricto	nombre:wing disc;semilla:GO:0007444;semilla:GO:0035220
+GO:0035223	leg disc pattern formation	biological_process	estricto	semilla:GO:0007444
+GO:0035224	genital disc anterior/posterior pattern formation	biological_process	estricto	semilla:GO:0007444
+GO:0035225	determination of genital disc primordium	biological_process	estricto	semilla:GO:0007444
+GO:0035263	genital disc sexually dimorphic development	biological_process	estricto	semilla:GO:0007444
+GO:0035294	determination of wing disc primordium	biological_process	estricto	nombre:wing disc;semilla:GO:0007444;semilla:GO:0035220
+GO:0035309	wing and notum subfield formation	biological_process	estricto	semilla:GO:0007444;semilla:GO:0035220
+GO:0035310	notum cell fate specification	biological_process	estricto	semilla:GO:0007444;semilla:GO:0035220
+GO:0035311	wing cell fate specification	biological_process	estricto	semilla:GO:0007444;semilla:GO:0035220
+GO:0035317	imaginal disc-derived wing hair organization	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0035318	imaginal disc-derived wing hair outgrowth	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0035319	imaginal disc-derived wing hair elongation	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0035320	imaginal disc-derived wing hair site selection	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0035321	maintenance of imaginal disc-derived wing hair orientation	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0036011	imaginal disc-derived leg segmentation	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0042251	maintenance of polarity of larval imaginal disc epithelium	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0042252	establishment of planar polarity of larval imaginal disc epithelium	biological_process	estricto	nombre:imaginal disc
+GO:0044719	regulation of imaginal disc-derived wing size	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0044720	negative regulation of imaginal disc-derived wing size	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0045496	male analia development	biological_process	estricto	semilla:GO:0007444
+GO:0045497	female analia development	biological_process	estricto	semilla:GO:0007444
+GO:0045570	regulation of imaginal disc growth	biological_process	estricto	nombre:imaginal disc
+GO:0045571	negative regulation of imaginal disc growth	biological_process	estricto	nombre:imaginal disc
+GO:0045572	positive regulation of imaginal disc growth	biological_process	estricto	nombre:imaginal disc
+GO:0045804	negative regulation of eclosion	biological_process	estricto	nombre:eclosion
+GO:0045805	positive regulation of eclosion	biological_process	estricto	nombre:eclosion
+GO:0046528	imaginal disc fusion	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0046529	imaginal disc fusion, thorax closure	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048098	antennal joint development	biological_process	estricto	semilla:GO:0007444
+GO:0048099	anterior/posterior lineage restriction, imaginal disc	biological_process	estricto	nombre:imaginal disc;semilla:GO:0007444
+GO:0048100	wing disc anterior/posterior pattern formation	biological_process	estricto	nombre:wing disc;semilla:GO:0007444;semilla:GO:0035220
+GO:0048190	wing disc dorsal/ventral pattern formation	biological_process	estricto	nombre:wing disc;semilla:GO:0007444;semilla:GO:0035220
+GO:0048526	imaginal disc-derived wing expansion	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0048707	instar larval or pupal morphogenesis	biological_process	estricto	nombre:instar;nombre:pupa;nombre:pupal;semilla:GO:0002165
+GO:0048716	labrum morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048717	anterior cibarial plate morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048718	cibarial fish-trap bristle morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048719	epistomal sclerite morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048720	posterior cibarial plate morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048721	clypeus morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048722	anterior cibarial plate development	biological_process	estricto	semilla:GO:0007444
+GO:0048723	clypeus development	biological_process	estricto	semilla:GO:0007444
+GO:0048724	epistomal sclerite development	biological_process	estricto	semilla:GO:0007444
+GO:0048725	cibarial fish-trap bristle development	biological_process	estricto	semilla:GO:0007444
+GO:0048726	labrum development	biological_process	estricto	semilla:GO:0007444
+GO:0048727	posterior cibarial plate development	biological_process	estricto	semilla:GO:0007444
+GO:0048728	proboscis development	biological_process	estricto	semilla:GO:0007444
+GO:0048734	proboscis morphogenesis	biological_process	estricto	semilla:GO:0007444
+GO:0048735	haltere morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048737	imaginal disc-derived appendage development	biological_process	estricto	nombre:imaginal disc
+GO:0048800	antennal morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048801	antennal joint morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048802	notum morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552;semilla:GO:0035220
+GO:0048803	imaginal disc-derived male genitalia morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048804	imaginal disc-derived female genitalia morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048805	imaginal disc-derived genitalia morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048809	analia morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048810	female analia morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048811	male analia morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0048816	ocellus morphogenesis	biological_process	estricto	semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007552
+GO:0090254	cell elongation involved in imaginal disc-derived wing morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0090255	cell proliferation involved in imaginal disc-derived wing morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0090256	regulation of cell proliferation involved in imaginal disc-derived wing morphogenesis	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0106023	regulation of pupariation	biological_process	estricto	nombre:pupa
+GO:0106024	negative regulation of pupariation	biological_process	estricto	nombre:pupa
+GO:0106025	positive regulation of pupariation	biological_process	estricto	nombre:pupa
+GO:0110107	regulation of imaginal disc-derived wing vein specification	biological_process	estricto	nombre:imaginal disc
+GO:0110108	positive regulation of imaginal disc-derived wing vein specification	biological_process	estricto	nombre:imaginal disc
+GO:0110109	negative regulation of imaginal disc-derived wing vein specification	biological_process	estricto	nombre:imaginal disc
+GO:0110137	regulation of imaginal disc-derived leg joint morphogenesis	biological_process	estricto	nombre:imaginal disc
+GO:0110138	positive regulation of imaginal disc-derived leg joint morphogenesis	biological_process	estricto	nombre:imaginal disc
+GO:0110139	negative regulation of imaginal disc-derived leg joint morphogenesis	biological_process	estricto	nombre:imaginal disc
+GO:0120198	positive regulation of imaginal disc-derived wing size	biological_process	estricto	nombre:imaginal disc;semilla:GO:0002165;semilla:GO:0007444;semilla:GO:0007476;semilla:GO:0007552;semilla:GO:0035220
+GO:0002168	instar larval development	biological_process	amplio	nombre:instar;semilla:GO:0002165
+GO:0004173	ecdysone O-acyltransferase activity	molecular_function	amplio	nombre:ecdysone
+GO:0004501	ecdysone 20-monooxygenase activity	molecular_function	amplio	nombre:ecdysone
+GO:0005500	juvenile hormone binding	molecular_function	amplio	nombre:juvenile hormone
+GO:0006697	ecdysone biosynthetic process	biological_process	amplio	nombre:ecdysone;semilla:GO:0002165
+GO:0006708	ecdysone catabolic process	biological_process	amplio	nombre:ecdysone;semilla:GO:0002165
+GO:0006716	juvenile hormone metabolic process	biological_process	amplio	nombre:juvenile hormone
+GO:0006718	juvenile hormone biosynthetic process	biological_process	amplio	nombre:juvenile hormone
+GO:0006719	juvenile hormone catabolic process	biological_process	amplio	nombre:juvenile hormone
+GO:0007433	larval salivary gland boundary specification	biological_process	amplio	semilla:GO:0002165
+GO:0007436	larval salivary gland morphogenesis	biological_process	amplio	semilla:GO:0002165
+GO:0007504	larval fat body development	biological_process	amplio	semilla:GO:0002165
+GO:0007553	regulation of ecdysteroid metabolic process	biological_process	amplio	nombre:ecdysteroid
+GO:0007554	regulation of ecdysteroid biosynthetic process	biological_process	amplio	nombre:ecdysteroid
+GO:0007555	regulation of ecdysteroid secretion	biological_process	amplio	nombre:ecdysteroid
+GO:0007557	regulation of juvenile hormone biosynthetic process	biological_process	amplio	nombre:juvenile hormone
+GO:0007558	regulation of juvenile hormone secretion	biological_process	amplio	nombre:juvenile hormone
+GO:0008096	juvenile hormone epoxide hydrolase activity	molecular_function	amplio	nombre:juvenile hormone
+GO:0008205	ecdysone metabolic process	biological_process	amplio	nombre:ecdysone;semilla:GO:0002165
+GO:0008230	ecdysone receptor holocomplex	cellular_component	amplio	nombre:ecdysone
+GO:0008231	repressor ecdysone receptor complex	cellular_component	amplio	nombre:ecdysone
+GO:0008232	activator ecdysone receptor complex	cellular_component	amplio	nombre:ecdysone
+GO:0035069	larval midgut histolysis	biological_process	amplio	semilla:GO:0002165;semilla:GO:0007552
+GO:0035075	response to ecdysone	biological_process	amplio	nombre:ecdysone;semilla:GO:0035075
+GO:0035076	ecdysone receptor signaling pathway	biological_process	amplio	nombre:ecdysone;semilla:GO:0035075
+GO:0035077	ecdysone-mediated polytene chromosome puffing	biological_process	amplio	nombre:ecdysone;semilla:GO:0035075
+GO:0035078	induction of programmed cell death by ecdysone	biological_process	amplio	nombre:ecdysone;semilla:GO:0035075
+GO:0035096	larval midgut cell programmed cell death	biological_process	amplio	semilla:GO:0002165;semilla:GO:0007552
+GO:0035100	ecdysone binding	molecular_function	amplio	nombre:ecdysone
+GO:0035193	larval central nervous system remodeling	biological_process	amplio	semilla:GO:0002165
+GO:0035302	ecdysteroid 25-hydroxylase activity	molecular_function	amplio	nombre:ecdysteroid
+GO:0035626	juvenile hormone mediated signaling pathway	biological_process	amplio	nombre:juvenile hormone
+GO:0042767	ecdysteroid 22-hydroxylase activity	molecular_function	amplio	nombre:ecdysteroid
+GO:0042768	ecdysteroid 2-hydroxylase activity	molecular_function	amplio	nombre:ecdysteroid
+GO:0045443	juvenile hormone secretion	biological_process	amplio	nombre:juvenile hormone
+GO:0045455	ecdysteroid metabolic process	biological_process	amplio	nombre:ecdysteroid;semilla:GO:0002165
+GO:0045456	ecdysteroid biosynthetic process	biological_process	amplio	nombre:ecdysteroid;semilla:GO:0002165
+GO:0045457	ecdysteroid secretion	biological_process	amplio	nombre:ecdysteroid
+GO:0045928	negative regulation of juvenile hormone metabolic process	biological_process	amplio	nombre:juvenile hormone
+GO:0045952	regulation of juvenile hormone catabolic process	biological_process	amplio	nombre:juvenile hormone
+GO:0045968	negative regulation of juvenile hormone biosynthetic process	biological_process	amplio	nombre:juvenile hormone
+GO:0045969	positive regulation of juvenile hormone biosynthetic process	biological_process	amplio	nombre:juvenile hormone
+GO:0045970	negative regulation of juvenile hormone catabolic process	biological_process	amplio	nombre:juvenile hormone
+GO:0045971	positive regulation of juvenile hormone catabolic process	biological_process	amplio	nombre:juvenile hormone
+GO:0045972	negative regulation of juvenile hormone secretion	biological_process	amplio	nombre:juvenile hormone
+GO:0045973	positive regulation of juvenile hormone secretion	biological_process	amplio	nombre:juvenile hormone
+GO:0045997	negative regulation of ecdysteroid biosynthetic process	biological_process	amplio	nombre:ecdysteroid
+GO:0045998	positive regulation of ecdysteroid biosynthetic process	biological_process	amplio	nombre:ecdysteroid
+GO:0045999	negative regulation of ecdysteroid secretion	biological_process	amplio	nombre:ecdysteroid
+GO:0046000	positive regulation of ecdysteroid secretion	biological_process	amplio	nombre:ecdysteroid
+GO:0046344	ecdysteroid catabolic process	biological_process	amplio	nombre:ecdysteroid;semilla:GO:0002165
+GO:0047875	ecdysone oxidase activity	molecular_function	amplio	nombre:ecdysone
+GO:0050488	ecdysteroid UDP-glucosyltransferase activity	molecular_function	amplio	nombre:ecdysteroid
+GO:0070594	juvenile hormone response element binding	molecular_function	amplio	nombre:juvenile hormone
+GO:0071390	cellular response to ecdysone	biological_process	amplio	nombre:ecdysone;semilla:GO:0035075
+GO:0102531	ecdysteroid-phosphate phosphatase activity	molecular_function	amplio	nombre:ecdysteroid
+GO:0106389	ecdysteroid 22-kinase activity	molecular_function	amplio	nombre:ecdysteroid
+GO:0120141	regulation of ecdysone receptor signaling pathway	biological_process	amplio	nombre:ecdysone
+GO:0120142	positive regulation of ecdysone receptor signaling pathway	biological_process	amplio	nombre:ecdysone
+GO:0120143	negative regulation of ecdysone receptor signaling pathway	biological_process	amplio	nombre:ecdysone

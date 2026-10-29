@@ -1,0 +1,18 @@
+Tarea 3 — letal_ambos_regimenes (diagnostico; NO reemplaza al ranking oficial)
+alto = >= percentil q de los valores observados (no imputados). dali = dali22 observado o, si es imputado, dali11 observado.
+observados: dali 7710 genes (dali22 3223, resto dali11); dapi11 7481
+
+q = 0.75 (PRINCIPAL): umbral dali >= 70.0, dapi11 >= 40.0; letal_ambos = 956/7881 (12.1%)
+  top100 con letal_ambos: 93; Spearman(score, letal_ambos) = 0.448
+  letal_ambos=False y flag_metamorfosis=True: 521 de 625 marcados (83.4%); de los 6925 False, 7.5% marcados (vs 10.9% entre los True)
+  ranking filtrado: 956 genes; del top100 original sobreviven 93; el top100 filtrado llega hasta el rank original 107; Spearman rank filtrado vs original en los sobrevivientes = 1 por construccion (el filtro no reordena)
+
+q = 0.5: umbral dali >= 40.0, dapi11 >= 30.0; letal_ambos = 2173/7881 (27.6%)
+  top100 con letal_ambos: 96; Spearman(score, letal_ambos) = 0.459
+  letal_ambos=False y flag_metamorfosis=True: 420 de 625 marcados (67.2%); de los 5708 False, 7.4% marcados (vs 9.4% entre los True)
+  ranking filtrado: 2173 genes; del top100 original sobreviven 96; el top100 filtrado llega hasta el rank original 104; Spearman rank filtrado vs original en los sobrevivientes = 1 por construccion (el filtro no reordena)
+
+q = 0.9: umbral dali >= 100.0, dapi11 >= 70.0; letal_ambos = 421/7881 (5.3%)
+  top100 con letal_ambos: 76; Spearman(score, letal_ambos) = 0.338
+  letal_ambos=False y flag_metamorfosis=True: 576 de 625 marcados (92.2%); de los 7460 False, 7.7% marcados (vs 11.6% entre los True)
+  ranking filtrado: 421 genes; del top100 original sobreviven 76; el top100 filtrado llega hasta el rank original 137; Spearman rank filtrado vs original en los sobrevivientes = 1 por construccion (el filtro no reordena)

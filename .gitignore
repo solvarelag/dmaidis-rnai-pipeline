@@ -1,0 +1,19 @@
+# datos crudos e intermedios (no se versionan; ver README)
+/tabla_maestra/
+/proteomas/
+/proteomas_crudos/
+/orthofinder_pasada1/
+/orthofinder_ogs3/
+/score_insumos/
+/rnaseq_insumos/
+/expresion/
+/ranking/
+/ranking_ogs3/
+/mrfv/
+*.bam
+*.bai
+*.fastq*
+*.sra
+*.zip
+__pycache__/
+*.pyc

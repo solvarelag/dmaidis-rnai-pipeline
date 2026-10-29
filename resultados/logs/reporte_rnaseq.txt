@@ -1,0 +1,41 @@
+genes Helixer con soporte RNA-seq (cob>=0.5, lect>=10): 17023/22199
+  top100 con soporte: 100/100
+puente GITV01: RBH 5622/22199; por locus 10407; cualquiera 11236
+  top100 con id_GITV01 (RBH): 46; con soporte_GITV01: 70
+confianza top100: {'alta': 70, 'media': 30}
+confianza todos: {'alta': 5818, 'media': 2000, 'baja': 51, 'media_revisar': 12}
+paralogo_resuelto (todos con 2 copias): {'ambas_con_lecturas': 857, 'solo_una': 35, 'ninguna': 4}
+paralogo_resuelto top100: {'ambas_con_lecturas': 3}
+paralogos_prot top100 (genes Dmai >=40% id, cob>=50%): {0: 73, 1: 10, 2: 3, 3: 14} (3 = >=3)
+MRFV via: {'': 56, 'rbh': 10, 'hit_directo': 10, 'locus': 7}
+loci_genoma top100: {1.0: 100}
+MRFV: 83 transcriptos DE, mapeados a gen Helixer: 27; en el ranking: 24
+estabilidad #25 Prosbeta5 (PSMB5): CV_estadios 0.114 (percentil 0.04) | CV_condiciones 0.054 (percentil 0.10)
+estabilidad #125 Vha36-1 (V-ATPasa D): CV_estadios 0.268 (percentil 0.19) | CV_condiciones 0.08 (percentil 0.20)
+estabilidad #216 Vha55 (V-ATPasa B): CV_estadios 0.33 (percentil 0.25) | CV_condiciones 0.045 (percentil 0.07)
+estabilidad_estadios mediana todos 0.560 / top100 0.252
+estabilidad_condiciones mediana todos 0.150 / top100 0.072
+Spearman CV_condiciones vs score: -0.342 | CV_estadios vs CV_condiciones: 0.439
+
+top100 con confianza baja:
+Empty DataFrame
+Columns: [rank, dmel, dmai_representativo, rnaseq_cobertura, rnaseq_lecturas, TPM_minimo]
+Index: []
+
+competencia vectorial: 24 genes; con letalidad >= p75 o CV_estadios <= p25 (0.325): 14
+             rank                             dmel respuesta_MRFV  letalidad_norm  estabilidad_estadios  log2FC_MRFV_4h  log2FC_MRFV_7d
+tcas_geneid                                                                                                                            
+661187         22                            TER94          up_7d          0.9404                 0.228          -0.060          -0.021
+663904         32                        VhaPPA1-1          up_4h          0.9737                 0.288          -0.184           0.282
+663504        260                             Slu7          up_7d          0.8643                 0.360          -0.069          -0.014
+661891        345                             RpL6          up_7d          0.9737                 0.531           0.106          -0.069
+664078        505                 UQCR-14,UQCR-14L          up_7d          0.9581                 0.320           0.231          -0.042
+656682       1182                             Sod1          up_4h          0.4329                 0.300           0.014           0.077
+655773       1416                        Karybeta3          up_7d          0.7754                 0.385          -0.268          -0.240
+659959       1487                              NaN          up_4h          0.9881                 0.288          -0.184           0.282
+658850       1736                            msl-3          up_4h          0.4689                 0.105          -0.111           0.189
+662595       2389                             Acsl          up_7d          0.4584                 0.319          -0.298          -0.082
+663258       4038                           CG1492          up_7d          0.3075                 0.114          -0.092          -0.121
+656619       4664                          CG10211          up_4h          0.7938                 1.419          -0.202          -0.020
+660290       5172  Ugt36A1,Ugt36D1,Ugt36E1,Ugt36F1          up_4h          0.3706                 0.301           0.174           0.022
+657908       5342                          Tsp29Fb          up_4h          0.4584                 0.246          -0.129           0.075

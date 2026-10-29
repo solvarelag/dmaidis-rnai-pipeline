@@ -1,0 +1,132 @@
+go-basic.obo: releases/2026-07-26 (archivo local, el mismo usado para la firma GO; no se volvio a descargar para no desacoplar la firma del flag)
+criterio proteasomal: GO:0000502 = proteasome complex -> si; solo GO:0010498 = proteasomal protein catabolic process -> parcial
+
+=== TAREA 0
+              nombre       gen                           fbgn_dmel proteasomal  en_fondo_1a1
+                cact    657221                         FBgn0000250          no          True
+              Srp54k    656255                         FBgn0010747          no          True
+                 Rop    655100                         FBgn0004574          no         False
+           alphaSnap    661926                         FBgn0250791          no          True
+                 shi    657469                         FBgn0003392          no          True
+        Pp1alpha-96A 100141788 FBgn0003132,FBgn0003134,FBgn0004103          no          True
+               Inr-a    659455                         FBgn0264962          no          True
+             Hsc70-3    659147                         FBgn0001218     parcial          True
+                Rpn7    662456                         FBgn0028688          si          True
+                  gw    661812                         FBgn0051992          no          True
+                Rpt3    656344             FBgn0028686,FBgn0037742          si          True
+Vha36-1 (V-ATPasa D)    660332             FBgn0022097,FBgn0040377          no          True
+      Polr2B/RpII140    663520                         FBgn0262955          no          True
+                 ncm 100142061                         FBgn0086707          no          True
+   Prosbeta5 (PSMB5)    658739                         FBgn0029134          si          True
+                dre4    661209                         FBgn0002183          no          True
+  Vha55 (V-ATPasa B)    656208                         FBgn0005671          no          True
+proteasomales: 3/17 ['Prosbeta5 (PSMB5)', 'Rpn7', 'Rpt3']; parcial: ['Hsc70-3']
+terminos de la firma provenientes SOLO de genes proteasomales: 6/77 (7.8%)
+
+=== TAREA 1
+semilla GO:0007552 resuelve a 'metamorphosis': OK
+semilla GO:0002165 resuelve a 'instar larval or pupal development': OK
+semilla GO:0007444 resuelve a 'imaginal disc development': OK
+semilla GO:0007476 resuelve a 'imaginal disc-derived wing morphogenesis': OK
+semilla GO:0035220 resuelve a 'wing disc development': OK
+semilla GO:0007562 resuelve a 'eclosion': OK
+semilla GO:0035075 resuelve a 'response to ecdysone': OK
+terminos metamorficos: estricto 146, amplio 206; excluidos 64 (muda/quitina/cuticula/embrion: 4, aplica a hemimetabolo: 60)
+RefSeq: marcados 625/7881 (7.9%); amplio 658 (8.3%); top100 15 (amplio 15)
+OGS3: marcados 646/8651 (7.5%); amplio 698 (8.1%); top100 15 (amplio 15)
+top100 RefSeq marcados (estricto):
+             rank                     dmel                                                                                          terminos_metamorficos
+tcas_geneid                                                                                                                                              
+664284          5                     EloC  GO:0002165 instar larval or pupal development;GO:0007444 imaginal disc development;GO:0007472 wing disc mo...
+662352          7                      mts  GO:0007444 imaginal disc development;GO:0007447 imaginal disc pattern formation;GO:0007450 dorsal/ventral ...
+657240         12                     Sar1                                                                  GO:0002165 instar larval or pupal development
+656788         14                     Arf1  GO:0002165 instar larval or pupal development;GO:0007444 imaginal disc development;GO:0007472 wing disc mo...
+661187         22                    TER94  GO:0002165 instar larval or pupal development;GO:0007552 metamorphosis;GO:0048707 instar larval or pupal m...
+664299         23                 gskt,sgg  GO:0002165 instar larval or pupal development;GO:0007444 imaginal disc development;GO:0007472 wing disc mo...
+663322         26  Vha68-1,Vha68-2,Vha68-3                                           GO:0007444 imaginal disc development;GO:0007446 imaginal disc growth
+663337         29                     Rho1  GO:0002165 instar larval or pupal development;GO:0007444 imaginal disc development;GO:0007472 wing disc mo...
+656560         37                      tsr  GO:0001737 establishment of imaginal disc-derived wing hair orientation;GO:0002165 instar larval or pupal ...
+660221         50                      wds  GO:0007444 imaginal disc development;GO:0007482 haltere development;GO:0035216 haltere disc development;GO...
+657699         52                     EloB  GO:0002165 instar larval or pupal development;GO:0007444 imaginal disc development;GO:0007472 wing disc mo...
+663252         62                     rept  GO:0002165 instar larval or pupal development;GO:0007444 imaginal disc development;GO:0007478 leg disc mor...
+657069         72                      hyx  GO:0002165 instar larval or pupal development;GO:0007444 imaginal disc development;GO:0007472 wing disc mo...
+658477         90                      sqh  GO:0002165 instar larval or pupal development;GO:0007444 imaginal disc development;GO:0007472 wing disc mo...
+660461         97                     Cdk8  GO:0002165 instar larval or pupal development;GO:0007444 imaginal disc development;GO:0007478 leg disc mor...
+20 candidatos finales marcados: 5/20 ['EloC', 'mts', 'Sar1', 'TER94', 'gskt,sgg'] (amplio 5)
+CRITERIO DE LECTURA (brief): top100 <= 5 marcados -> objecion cuantificada, una linea en el poster; >= 20 -> discutir reponderar dali22; entre 5 y 20 -> inspeccion caso por caso. Resultado: 15 -> entre 5 y 20
+
+=== TAREA 2
+INTERSECCION firma GO x conjunto metamorfico (amplio): 0 []
+metamorficos: 0/77; genericos: 33/77 (prof <= 3: 33, > 25% universo: 6)
+profundidad min/mediana/max: 1/4.0/10
+solo de genes proteasomales: 6/77 (7.8%)
+
+=== TAREA 3
+observados: dali 7710 genes (dali22 3223, resto dali11); dapi11 7481
+
+q = 0.75 (PRINCIPAL): umbral dali >= 70.0, dapi11 >= 40.0; letal_ambos = 956/7881 (12.1%)
+  top100 con letal_ambos: 93; Spearman(score, letal_ambos) = 0.448
+  letal_ambos=False y flag_metamorfosis=True: 521 de 625 marcados (83.4%); de los 6925 False, 7.5% marcados (vs 10.9% entre los True)
+  ranking filtrado: 956 genes; del top100 original sobreviven 93; el top100 filtrado llega hasta el rank original 107; Spearman rank filtrado vs original en los sobrevivientes = 1 por construccion (el filtro no reordena)
+
+q = 0.5: umbral dali >= 40.0, dapi11 >= 30.0; letal_ambos = 2173/7881 (27.6%)
+  top100 con letal_ambos: 96; Spearman(score, letal_ambos) = 0.459
+  letal_ambos=False y flag_metamorfosis=True: 420 de 625 marcados (67.2%); de los 5708 False, 7.4% marcados (vs 9.4% entre los True)
+  ranking filtrado: 2173 genes; del top100 original sobreviven 96; el top100 filtrado llega hasta el rank original 104; Spearman rank filtrado vs original en los sobrevivientes = 1 por construccion (el filtro no reordena)
+
+q = 0.9: umbral dali >= 100.0, dapi11 >= 70.0; letal_ambos = 421/7881 (5.3%)
+  top100 con letal_ambos: 76; Spearman(score, letal_ambos) = 0.338
+  letal_ambos=False y flag_metamorfosis=True: 576 de 625 marcados (92.2%); de los 7460 False, 7.7% marcados (vs 11.6% entre los True)
+  ranking filtrado: 421 genes; del top100 original sobreviven 76; el top100 filtrado llega hasta el rank original 137; Spearman rank filtrado vs original en los sobrevivientes = 1 por construccion (el filtro no reordena)
+
+=== TAREA 6
+pesos B (redistribucion proporcional): {'letalidad': 0.5, 'expresion': 0.2857, 'conservacion': 0.2143}
+top100 A en top100 B: 63/100; Spearman A vs B = 0.898
+proteasomales (GO:0000502) top100 A: 22 | top100 B: 15  (parcial: A 7, B 6)
+  control PSMB5: A #25 -> B #34
+  control Rpt3: A #21 -> B #17
+  control V-ATPasa D: A #125 -> B #65
+  control V-ATPasa B: A #216 -> B #184
+solo en top100 B: 37
+             rank_B  rank                          dmel  go_norm  letalidad_norm proteasomal  flag_metamorfosis
+tcas_geneid                                                                                                    
+658693            1   104                    Sec61alpha   0.7421          0.9881          no              False
+660122           11   128                         Sec23   0.7510          0.9881          no               True
+657532           13   262                         Prp31   0.6099          0.9881          no              False
+656087           18   388                       Gs1,Gs2   0.5114          0.9881          no              False
+660190           29   144                           cpb   0.7657          0.9881          no               True
+659693           32   324                      l(1)10Bb   0.5931          0.9881          no              False
+660156           33   129                          Bx42   0.7926          0.9881          no               True
+663140           36   158                          Snx3   0.7510          0.9326          no               True
+661473           37   138                   ATPsyngamma   0.7787          0.9881          no              False
+659223           38   468                         AsnRS   0.4968          0.9881          no              False
+100141788        40   131  Pp1-13C,Pp1-87B,Pp1alpha-96A   0.7973          0.9881          no              False
+656728           45   343                          Acly   0.5859          0.9425          no              False
+658694           46   119                         TfIIB   0.8152          0.9881          no              False
+661185           50   118                         RpLP1   0.8215          0.9457          no              False
+662207           53   394                      gammaCOP   0.5584          0.9631          no               True
+660637           56   136                          Arp2   0.8081          0.9881          no              False
+660571           57   166                       Sec24CD   0.7657          0.9881          no              False
+658491           58   286                         eIF3e   0.6544          0.9881          no              False
+664246           59   109                       CG10333   0.8418          0.9737          no              False
+655015           61   257                          Cchl   0.6773          0.9737          no              False
+658012           62   366                          Sams   0.5859          0.9881          no              False
+661505           63   225                         c12.1   0.7114          0.9581          no              False
+660332           65   125               Vha36-1,Vha36-3   0.8324          0.9581          no              False
+656081           66   414                      deltaCOP   0.5584          0.9881          no               True
+655651           68   247                         eIF3c   0.6975          0.9490          no              False
+660337           70   277                          eRF1   0.6736          0.9581          no              False
+659781           73   114                         Chmp1   0.8491          0.9359          no              False
+664413           77   241                         Sf3b2   0.7114          0.9881          no              False
+663391           83   269                           Eno   0.6934          0.9081          no              False
+658424           85   453                      beta'COP   0.5584          0.9881          no              False
+662100           86   383                         eIF3a   0.5987          0.9737          no              False
+658674           89   565                      Gbeta13F   0.4921          0.9030          no              False
+660843           91   148                       ATPsynF   0.8243          0.9359          no              False
+662315           94   124                         Nop56   0.8614          0.9881          no              False
+664159           96   282                           Eno   0.6934          0.9081          no              False
+657510           98   152                 eIF3d1,eIF3d2   0.8215          0.9881          no              False
+661396          100   197                         Sf3b3   0.7781          0.9631          no              False
+top100 B con flag_metamorfosis: 18 (A: 15)
+
+columnas agregadas a la tabla maestra: flag_metamorfosis, terminos_metamorficos, flag_metamorfosis_amplio, proteasomal, letal_ambos_regimenes (+ score_B, rank_B en RefSeq)

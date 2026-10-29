@@ -1,0 +1,21 @@
+rank	tcas_geneid	dmel	helixer	stringtie	intrones_helixer	intrones_confirmados	intrones_solo_stringtie	cds_cubierto	estado	id_GITV01	confianza	riesgo_paralogo	paralogos_prot
+1	661114	Rpt1	Dalbulus_maidis_OZ319706.1_000646.1	STRG.7307.1	9	7	1	0.967	discrepancia	GITV01000273.1	alta	False	5
+2	656024	Rpt5	Dalbulus_maidis_OZ319712.1_000892.1	STRG.22351.1	7	7	0	1.0	confirmado		media	False	5
+4	663731	Rpt2	Dalbulus_maidis_OZ319705.1_001978.1	STRG.3949.1	10	7	1	0.967	discrepancia	GITV01005813.1	alta	False	5
+5	664284	EloC	Dalbulus_maidis_OZ319709.1_000700.1	STRG.15183.1	2	2	0	1.0	confirmado		alta	False	0
+6	661287	Rpt6,Rpt6R	Dalbulus_maidis_OZ319708.1_001150.1	STRG.13433.1	7	6	1	0.993	discrepancia		media	False	6
+7	662352	mts	Dalbulus_maidis_OZ319706.1_000779.1	STRG.7615.1	5	5	0	1.0	confirmado		alta	False	10
+8	657072	Rpn11	Dalbulus_maidis_OZ319706.1_000361.1	STRG.6641.4	14	12	0	0.53	discrepancia		alta	False	0
+9	663555	Rpn6	Dalbulus_maidis_OZ319708.1_001354.1	STRG.12936.1	0	0	0	1.0	confirmado		media	False	0
+10	656270	Hsp83	Dalbulus_maidis_OZ319709.1_000322.1	STRG.14232.1	2	2	0	1.0	confirmado		alta	False	1
+11	662320	snRNP-U1-70K	Dalbulus_maidis_OZ319709.1_001220.1	STRG.15363.1	8	8	0	1.0	confirmado	GITV01001014.1	alta	False	0
+12	657240	Sar1	Dalbulus_maidis_OZ319704.1_000724.1	STRG.1456.2	6	4	1	1.0	discrepancia		alta	False	0
+15	656146	Rpt4,Rpt4R	Dalbulus_maidis_OZ319707.1_000162.1	STRG.8886.1	8	8	0	1.0	confirmado	GITV01001584.1	alta	False	6
+17	662877	Hel25E	Dalbulus_maidis_OZ319707.1_001867.1	STRG.9118.1	11	7	2	0.958	discrepancia	GITV01000615.1	alta	False	0
+18	660218	CG1703	Dalbulus_maidis_OZ319710.1_001908.1	STRG.16537.1	13	10	1	0.976	discrepancia		alta	False	1
+19	659201	Vha26	Dalbulus_maidis_OZ319710.1_001044.1	STRG.18262.1	5	3	1	0.996	discrepancia		media	False	1
+20	663362	hay	Dalbulus_maidis_OZ319708.1_000655.1	STRG.12557.1	16	10	5	0.978	discrepancia		alta	False	0
+21	656344	Rpt3,Rpt3R	Dalbulus_maidis_OZ319711.1_001526.1	STRG.19698.1	8	8	0	1.0	confirmado	GITV01000607.1	alta	False	6
+22	661187	TER94	Dalbulus_maidis_OZ319712.1_001178.1	STRG.21595.1	14	12	1	0.927	discrepancia	GITV01001730.1	alta	False	0
+23	664299	gskt,sgg	Dalbulus_maidis_OZ319711.1_000773.1	STRG.20064.7	8	7	0	0.862	discrepancia		alta	False	0
+24	657235	VhaSFD	Dalbulus_maidis_OZ319706.1_000362.1	STRG.6645.2	9	9	0	1.0	confirmado	GITV01003434.1	alta	False	0

@@ -1,0 +1,84 @@
+contig	id_GITV01	tiempo	sentido	LFC	padj	categoria	nombre	gen	via
+14129	GITV01014120.1	4h	up	0.947	6E−07	Immunity	Gram-negative bacteria binding protein 1		
+3972	GITV01003971.1	4h	up	0.668	8E−03	Immunity	Serine/threonine-protein phosphatase 4 regulatory subunit 1-like isoform X4		
+4144	GITV01004143.1	4h	up	0.421	2E−02	Immunity	Inter-alpha-trypsin inhibitor heavy chain H3-like		
+5916	GITV01005915.1	4h	up	0.491	5E−02	Immunity	Secreted serpin protein		
+11603	GITV01011597.1	4h	up	0.182	2E−02	Immunity	Monoacylglycerol lipase ABHD12 isoform X4		
+16040	GITV01015990.1	4h	up	0.519	5E−02	Immunity	Cathepsin L1		
+16335	GITV01016172.1	4h	up	0.505	2E−02	Immunity	Secreted serpin protein		
+52673	GITV01052493.1	4h	up	0.712	2E−02	Immunity	Beta-1,3-glucan recognition protein 4a		
+41208	GITV01041032.1	4h	up	0.69	0.09	Immunity	Peptidoglycan recognition protein LC, partial		
+4184	GITV01004183.1	4h	up	0.171	8E−02	Transcription	Protein male-specific lethal-3	Dalbulus_maidis_OZ319710.1_001760	rbh
+11639	GITV01011633.1	4h	up	0.465	2E−02	Transcription	Transcription factor IIIA		
+14378	GITV01014369.1	4h	up	0.415	5E−02	Transcription	G patch domain-containing protein 1 homolog		
+16806	GITV01016637.1	4h	up	0.559	6E−03	Transcription	Longitudinals lacking protein, isoforms N/O/W/X/Y isoform X20		
+30485	GITV01030312.1	4h	up	0.519	5E−02	Cell rescue, defense, and virulence	Heat shock factor-binding protein 1 isoform X1		
+4722	GITV01004721.1	4h	up	0.34	8E−02	Cell rescue, defense, and virulence	Predicted: superoxide dismutase [Cu-Zn]	Dalbulus_maidis_OZ319710.1_000665	hit_directo
+7302	GITV01007301.1	4h	up	0.317	4E−02	Cell rescue, defense, and virulence	Predicted: peroxisomal multifunctional enzyme type 2 isoform X2		
+14274	GITV01014265.1	4h	up	0.461	8E−02	Cell rescue, defense, and virulence	CDGSH iron-sulfur domain-containing protein 3, mitochondrial		
+48263	GITV01048084.1	4h	down	-0.082	2E−03	Cell rescue, defense, and virulence	Predicted: zinc finger protein 664-like (LOC114325064), transcript variant X3, mRNA		
+1691	GITV01001691.1	4h	up	0.459	9E−02	Protein fate	Mitochondrial-processing peptidase subunit beta	Dalbulus_maidis_OZ319709.1_001272	rbh
+1818	GITV01001818.1	4h	up	0.306	2E−02	Protein fate	Glutamate dehydrogenase, mitochondrial	Dalbulus_maidis_OZ319706.1_001178	rbh
+4174	GITV01004173.1	4h	up	0.439	2E−02	Protein fate	Venom serine carboxypeptidase-like	Dalbulus_maidis_OZ319707.1_001931	hit_directo
+4697	GITV01004696.1	4h	up	0.869	2E−02	Protein fate	Secreted aspartyl glucosaminidase-like protein		
+6979	GITV01006978.1	4h	up	0.21	6E−02	Protein fate	Probable serine hydrolase isoform X2		
+4262	GITV01004261.1	4h	up	0.401	8E−02	Metabolism	NADP-dependent malic enzyme-like isoform X2		
+13683	GITV01013674.1	4h	up	0.563	2E−02	Metabolism	Lipase 3		
+1872	GITV01001872.1	4h	up	0.869	8E−02	Metabolism	V-type proton ATPase 21 kDa proteolipid subunit	Dalbulus_maidis_OZ319705.1_001366	rbh
+1491	GITV01001491.1	4h	up	1.34	8E−02	Protein with binding function or cofactor requirement	NcSP70 mRNA for transferrin	Dalbulus_maidis_OZ319704.1_001372	hit_directo
+40821	GITV01040645.1	4h	up	0.758	5E−02	Protein with binding function or cofactor requirement	Aminopeptidase N-like protein		
+2029	GITV01002029.1	4h	up	1.229	8E−02	Cellular communication signal	Growth factor receptor-bound protein 10-like (LOC111865116)		
+5430	GITV01005429.1	4h	up	0.735	9E−02	Cellular communication signal	Fatty acid-binding protein, muscle isoform X2	Dalbulus_maidis_OZ319704.1_002225	hit_directo
+6798	GITV01006797.1	4h	up	0.21	2E−02	Cellular communication signal	CD63 antigen-like	Dalbulus_maidis_OZ319705.1_001001	rbh
+6907	GITV01006906.1	4h	up	0.381	2E−02	Cellular communication signal	Predicted: histidine triad nucleotide-binding protein 1	Dalbulus_maidis_OZ319710.1_002056	rbh
+9888	GITV01009886.1	4h	up	0.526	2E−02	Cellular communication signal	Predicted: inactive dipeptidyl peptidase 10 isoform X2	Dalbulus_maidis_OZ319709.1_001048	locus
+14429	GITV01014420.1	4h	up	0.321	5E−02	Cellular communication signal	Phosphoesterase 24, partial		
+6496	GITV01006495.1	4h	up	0.456	2E−02	Regulation of metabolism and protein function	Protein-tyrosine sulfotransferase isoform X2		
+42206	GITV01042030.1	4h	up	0.322	7E−02	Regulation of metabolism and protein function	Juvenile hormone acid O-methyltransferase-like		
+7433	GITV01007432.1	4h	up	0.576	4E−02	Cellular transport	ATP-binding cassette transporter subfamily C member 4 isoform 1		
+743	GITV01000743.1	4h	up	0.439	1E−01	Unknown	Hypothetical protein LSTR_LSTR005741	Dalbulus_maidis_OZ319704.1_001708	locus
+1800	GITV01001800.1	4h	up	0.255	9E−02	Unknown	Hypothetical protein LSTR_LSTR002520	Dalbulus_maidis_OZ319707.1_001257	locus
+2450	GITV01002450.1	4h	up	0.434	1E−01	Unknown	Hypothetical protein LSTR_LSTR001311	Dalbulus_maidis_OZ319705.1_001969	locus
+6309	GITV01006308.1	4h	up	0.316	5E−03	Unknown	Hypothetical protein LSTR_LSTR008156	Dalbulus_maidis_OZ319713.1_001371	rbh
+6842	GITV01006841.1	4h	up	0.124	2E−02	Unknown	Hypothetical protein B7P43_G09429	Dalbulus_maidis_OZ319705.1_000659	locus
+7351	GITV01007350.1	4h	up	0.407	5E−02	Unknown	Hypothetical protein LSTR_LSTR004310		
+7894	GITV01007893.1	4h	up	0.579	2E−02	Unknown	Hypothetical protein B566_EDAN002302		
+8967	GITV01008965.1	4h	up	0.059	8E−03	Unknown	Hypothetical protein LSTR_LSTR005033	Dalbulus_maidis_OZ319711.1_000591	locus
+10466	GITV01010464.1	4h	up	0.146	4E−02	Unknown	Uncharacterized protein LOC110834514		
+11144	GITV01011140.1	4h	up	0.279	8E−02	Unknown	Hypothetical protein LSTR_LSTR008826	Dalbulus_maidis_OZ319706.1_000911	locus
+12616	GITV01012608.1	4h	up	0.407	8E−02	Unknown	Uncharacterized protein LOC110828818		
+34166	GITV01033992.1	4h	up	0.271	8E−02	Unknown	Hypothetical protein YQE_06069, partial		
+38705	GITV01038529.1	4h	up	0.649	4E−02	Unknown	Uncharacterized protein LOC108632082		
+30451	GITV01030278.1	4h	up	0.931	5E−03	Unknown	Uncharacterized LOC108365256 (LOC108365256), ncRNA		
+5474	GITV01005473.1	4h	up	0.35	0.02	Hits to other organisms	Cathepsin L		
+22137	GITV01021968.1	4h	down	-0.42	0.02	Hits to other organisms	30S ribosomal subunit protein S4 (S9e)		
+25497	GITV01025325.1	4h	down	-0.32	0.02	Hits to other organisms	30S ribosomal subunit protein S4 (S9e)		
+38707	GITV01038531.1	4h	up	0.75	0.08	Hits to other organisms	Polyprotein		
+38980	GITV01038804.1	4h	up	0.22	0.08	Hits to other organisms	Cathepsin B-like		
+52215	GITV01052035.1	4h	up	1.89	0.00	Hits to other organisms	Replicase polyprotein		
+1730	GITV01001730.1	7d	up	2.48	4E−06	Immunity	26S proteasome regulatory subunit	Dalbulus_maidis_OZ319712.1_001178	rbh
+1795	GITV01001795.1	7d	up	3.25	4E−06	Immunity	1-Phosphatidylinositol 4,5-bisphosphate phosphodiesterase epsilon-1-like (LOC111050143)	Dalbulus_maidis_OZ319707.1_000106	hit_directo
+4646	GITV01004645.1	7d	up	1.889	4E−05	Immunity	Signal peptidase complex catalytic subunit SEC11A (LOC111512019)	Dalbulus_maidis_OZ319706.1_001853	rbh
+15291	GITV01015281.1	7d	up	2.653	8E−09	Immunity	Serine protease 14		
+6560	GITV01006559.1	7d	up	1.575	3E−08	Protein synthesis	60S ribosomal protein L22 (LOC111047508)		
+5558	GITV01005557.1	7d	up	3.238	4E−06	Protein synthesis	40S ribosomal protein S26 (LOC111056161)		
+45832	GITV01045656.1	7d	up	2.276	2E−08	Protein synthesis	60S ribosomal protein L29-1 (LOC113213475)		
+54392	GITV01054212.1	7d	up	2.483	2E−08	Protein synthesis	60S ribosomal protein L38 (LOC112051453)		
+1705	GITV01001705.1	7d	up	1.291	7E−05	Transcription	Pre-mRNA-splicing factor Slu7 (LOC110833152)	Dalbulus_maidis_OZ319705.1_000568	hit_directo
+17037	GITV01016868.1	7d	up	2.95	1E−11	Transcription	Small nuclear ribonucleoprotein E		
+10958	GITV01010954.1	7d	up	1.98	6E−06	Cell rescue, defense, and virulence	Cysteine dioxygenase type 1 (LOC106648916)	Dalbulus_maidis_OZ319713.1_001713	hit_directo
+4873	GITV01004872.1	7d	up	1.824	4E−06	Protein fate	Legumain		
+7611	GITV01007610.1	7d	up	1.758	1E−08	Protein fate	Gamma-glutamyltranspeptidase 1-like (LOC111053586)	Dalbulus_maidis_OZ319705.1_001059	hit_directo
+1693	GITV01001693.1	7d	up	1.763	2E−11	Metabolism	Protein arginine N-methyltransferase 1-like (LOC111063517)	Dalbulus_maidis_OZ319705.1_001015	rbh
+10321	GITV01010319.1	7d	up	2.585	2E−06	Metabolism	Long-chain-fatty-acid–CoA ligase 3 (LOC6592464)	Dalbulus_maidis_OZ319707.1_001803	hit_directo
+14111	GITV01014102.1	7d	up	2.364	4E−06	Metabolism	Clone CFSNI1556 alpha-amylase		
+52876	GITV01052696.1	7d	up	1.597	4E−06	Cellular communication	Predicted: CD63 antigen-like, partial		
+14919	GITV01014909.1	7d	up	2.884	2E−05	Regulation of metabolism and protein function	Troponin I protein		
+1701	GITV01001701.1	7d	up	2.085	6E−09	Cellular transport	Importin-5 (LOC111064460)	Dalbulus_maidis_OZ319710.1_000508	hit_directo
+15127	GITV01015117.1	7d	up	1.714	5E−08	Unknown	Hypothetical protein LSTR_LSTR004460		
+55795	GITV01055611.1	7d	up	2.474	1E−08	Unknown	Hypothetical protein B566_EDAN012453		
+12675	GITV01012667.1	7d	up	0.788	3E−03	Unknown	TR19232_c0_g1_i2 transcribed RNA sequence		
+13940	GITV01013931.1	7d	up	2.169	9E−05	Unknown	Uncharacterized LOC111875770		
+21724	GITV01021555.1	7d	up	0.11	0.05	Hits to other organisms	Hypothetical protein CAPTEDRAFT_190440		
+50276	GITV01050097.1	7d	up	1.17	0.00	Hits to other organisms	DDE-type integrase/transposase/recombinase, partial		
+52215	GITV01052035.1	7d	up	3.11	0.00	Hits to other organisms	Replicase polyprotein		

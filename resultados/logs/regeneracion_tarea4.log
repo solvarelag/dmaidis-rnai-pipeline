@@ -1,0 +1,202 @@
+=== expresion_matrices.py 17:07:46
+bioproject   estadio  sexo               tratamiento  tiempo
+PRJNA318849  adulto   hembra             ninguno                1
+                      macho              ninguno                1
+             ninfa    mixto              ninguno                1
+PRJNA631706  adulto   pool_hembra_macho  MRFV         4h        4
+                                                      7d        4
+                                         naive        4h        4
+                                                      7d        4
+fragmentos en genes por corrida (M): {'SRR5010611': 19.2, 'SRR5010612': 14.9, 'SRR5010613': 18.0, 'SRR11822335': 20.9, 'SRR11822336': 23.3, 'SRR11822337': 19.5, 'SRR11822338': 11.6, 'SRR11822341': 23.7, 'SRR11822342': 15.7, 'SRR11822343': 21.1, 'SRR11822344': 19.2, 'SRR11822339': 16.4, 'SRR11822340': 22.2, 'SRR11822347': 20.6, 'SRR11822348': 11.2, 'SRR11822333': 18.3, 'SRR11822334': 21.4, 'SRR11822345': 24.7, 'SRR11822346': 21.0}
+genes: 22199; TPM_minimo = 0 en estadios: 7290; < 1: 11399
+CV_estadios mediana: 0.7 | CV_condiciones mediana: 0.197
+sesgo_sexo |log2| > 2: 4004
+exit 0
+=== score_candidatos.py 17:07:47
+universo (letalidad + ortologo Dmai): 8272
+copias Dmai: {1: 6985, 2: 896, 3: 391} (3 = >=3)
+tras filtro de copias: 7881 (riesgo_paralogo: 896)
+imputados por columna: {'dali11': 171, 'dapi11': 400, 'dali22': 4658} | genes con >=1 imputacion: 4707
+entrenamiento mapeado: 17 genes Tcas; en fondo 1:1 con GO: 16; no mapeados: []
+fondo GO (1:1 con GO): 5739; terminos en la firma: 77
+sin dato -> 0: {'letalidad': 0, 'go': 0, 'expresion': 29, 'conservacion': 259}
+expresion: PRJNA318849 (3 corridas); sesgo_sexo |log2| > 2 en el universo: 1620
+
+sensibilidad sin dali22: top100 compartido 92/100; Spearman rank (todos) 0.960
+salen del top100 sin dali22:              rank  rank_sin_dali22          dmel  dali11  dali22
+tcas_geneid                                                     
+663894         48              205       Vha14-1     0.0   100.0
+664411         61              177        CG7483    20.0   100.0
+662277         94              136       Caf1-55    40.0   100.0
+662696         95              103           pit   100.0   100.0
+660653         96              149  Rpn12,Rpn12R    55.0   100.0
+661302         98              107         Vha44   100.0   100.0
+656683         99              101   ATPsyndelta   100.0   100.0
+655380        100              102        ND-ACP   100.0   100.0
+entran:              rank  rank_sin_dali22                                dmel     dali11     dali22
+tcas_geneid                                                                                 
+660254        102               70                                pont  70.000000  70.000000
+662804        117               53                               Vha13  55.555556  55.555556
+658630        122               73                            CkIIbeta  70.000000  70.000000
+656600        141               91                               LysRS  70.000000  70.000000
+662295        160               88  eIF4E1,eIF4E3,eIF4E4,eIF4E5,eIF4E7  60.000000  60.000000
+664546        168               69                                eEF2  50.000000  50.000000
+663454        201               80                           Nfs1,Qtzl  50.000000  50.000000
+658895        231               92                              mEFTu1  33.333333  46.954559
+
+entrenamiento / controles en el ranking:
+  #   21/7881  Rpt3                     score=0.966 L=0.99 GO=0.96 E=0.92 C=1.00
+  #   25/7881  Prosbeta5 (PSMB5)        score=0.962 L=0.99 GO=0.97 E=0.99 C=0.84
+  #   65/7881  Hsc70-3                  score=0.938 L=0.99 GO=0.90 E=0.86 C=0.99
+  #   93/7881  dre4                     score=0.920 L=0.99 GO=0.92 E=0.83 C=0.88
+  #  125/7881  Vha36-1 (V-ATPasa D)     score=0.910 L=0.96 GO=0.83 E=0.93 C=0.93
+  #  131/7881  Pp1alpha-96A             score=0.907 L=0.99 GO=0.80 E=0.87 C=0.99
+  #  146/7881  Polr2B/RpII140           score=0.901 L=0.88 GO=0.89 E=0.89 C=0.99
+  #  153/7881  ncm                      score=0.897 L=0.99 GO=0.92 E=0.76 C=0.82
+  #  216/7881  Vha55 (V-ATPasa B)       score=0.877 L=0.86 GO=0.82 E=0.91 C=0.98
+  #  229/7881  Rpn7                     score=0.874 L=0.99 GO=0.97 E=0.99 C=0.25
+  #  230/7881  Srp54k                   score=0.874 L=0.99 GO=0.89 E=0.57 C=0.98
+  #  527/7881  alphaSnap                score=0.807 L=0.99 GO=0.68 E=0.57 C=0.95
+  #  650/7881  Rop                      score=0.787 L=0.99 GO=0.88 E=0.23 C=0.87  riesgo_paralogo
+  # 1111/7881  gw                       score=0.725 L=0.99 GO=0.68 E=0.58 C=0.39
+  # 1152/7881  cact                     score=0.720 L=0.99 GO=0.61 E=0.89 C=0.08
+  # 1286/7881  shi                      score=0.705 L=0.99 GO=0.54 E=0.31 C=0.89
+  # 2736/7881  Inr-a                    score=0.570 L=0.68 GO=0.68 E=0.59 C=0.05
+
+reparto del score (aporte medio en el top 50 vs. todos):
+  letalidad     top50=0.341  todos=0.175
+  go            top50=0.294  todos=0.150
+  expresion     top50=0.187  todos=0.100
+  conservacion  top50=0.142  todos=0.073
+exit 0
+=== score_candidatos.py ogs3 17:07:52
+universo (letalidad + ortologo Dmai): 9147
+copias Dmai: {1: 7624, 2: 1027, 3: 496} (3 = >=3)
+tras filtro de copias: 8651 (riesgo_paralogo: 1027)
+imputados por columna: {'dali11': 181, 'dapi11': 499, 'dali22': 5223} | genes con >=1 imputacion: 5275
+entrenamiento mapeado: 17 genes Tcas; en fondo 1:1 con GO: 16; no mapeados: []
+fondo GO (1:1 con GO): 5680; terminos en la firma: 77
+sin dato -> 0: {'letalidad': 0, 'go': 0, 'expresion': 122, 'conservacion': 412}
+expresion: PRJNA318849 (3 corridas); sesgo_sexo |log2| > 2 en el universo: 1839
+
+sensibilidad sin dali22: top100 compartido 92/100; Spearman rank (todos) 0.961
+salen del top100 sin dali22:           rank  rank_sin_dali22     dmel  dali11  dali22
+tcas_tc                                                 
+TC000874    49              227  Vha14-1     0.0   100.0
+TC009998    63              189   CG7483    20.0   100.0
+TC002540    90              103    HDAC1    60.0   100.0
+TC030667    93              104      sqh    70.0   100.0
+TC003690    94              101    ND-24   100.0   100.0
+TC006775    98              140  Caf1-55    40.0   100.0
+TC004891    99              102     Cdk8   100.0   100.0
+TC000825   100              107      pit   100.0   100.0
+entran:           rank  rank_sin_dali22                                dmel     dali11     dali22
+tcas_tc                                                                                  
+TC012184   107               71                                pont  70.000000  70.000000
+TC000224   123               77                            CkIIbeta  70.000000  70.000000
+TC009074   127               54                               Vha13  55.555556  55.555556
+TC014562   145               93                               LysRS  70.000000  70.000000
+TC013759   165               94  eIF4E1,eIF4E3,eIF4E4,eIF4E5,eIF4E7  60.000000  60.000000
+TC008784   172               68                                eEF2  50.000000  50.000000
+TC014434   209               84                           Nfs1,Qtzl  50.000000  50.000000
+TC011692   240               97                              mEFTu1  33.333333  46.641368
+
+entrenamiento / controles en el ranking:
+  #   22/8651  Rpt3                     score=0.968 L=0.99 GO=0.96 E=0.92 C=1.00
+  #   27/8651  Prosbeta5 (PSMB5)        score=0.963 L=0.99 GO=0.97 E=0.99 C=0.85
+  #   67/8651  Hsc70-3                  score=0.941 L=0.99 GO=0.91 E=0.87 C=0.99
+  #   97/8651  dre4                     score=0.923 L=0.99 GO=0.92 E=0.84 C=0.88
+  #  128/8651  Vha36-1 (V-ATPasa D)     score=0.914 L=0.96 GO=0.84 E=0.93 C=0.92
+  #  135/8651  Pp1alpha-96A             score=0.912 L=0.99 GO=0.81 E=0.87 C=0.99
+  #  148/8651  Polr2B/RpII140           score=0.906 L=0.88 GO=0.89 E=0.89 C=0.99
+  #  158/8651  ncm                      score=0.902 L=0.99 GO=0.93 E=0.77 C=0.83
+  #  219/8651  Vha55 (V-ATPasa B)       score=0.884 L=0.87 GO=0.83 E=0.92 C=0.98
+  #  238/8651  Srp54k                   score=0.878 L=0.99 GO=0.89 E=0.58 C=0.98
+  #  242/8651  Rpn7                     score=0.876 L=0.99 GO=0.97 E=0.99 C=0.26
+  #  543/8651  alphaSnap                score=0.814 L=0.99 GO=0.70 E=0.58 C=0.95
+  #  682/8651  Rop                      score=0.792 L=0.99 GO=0.89 E=0.24 C=0.87  riesgo_paralogo
+  # 1134/8651  gw                       score=0.733 L=0.99 GO=0.70 E=0.59 C=0.40
+  # 1190/8651  cact                     score=0.728 L=0.99 GO=0.63 E=0.89 C=0.09
+  # 1306/8651  shi                      score=0.715 L=0.99 GO=0.56 E=0.32 C=0.90
+  # 2899/8651  Inr-a                    score=0.574 L=0.69 GO=0.70 E=0.60 C=0.02
+
+reparto del score (aporte medio en el top 50 vs. todos):
+  letalidad     top50=0.341  todos=0.175
+  go            top50=0.294  todos=0.150
+  expresion     top50=0.189  todos=0.099
+  conservacion  top50=0.142  todos=0.071
+exit 0
+=== comparar_ogs3.py 17:07:56
+universo filtrado: RefSeq 7881 | OGS3 8651
+iB letales (dali11 >= 80, 1499) en el ranking: RefSeq 961 | OGS3 1015 | solo OGS3 69 | solo RefSeq 15
+  RefSeq: genes letales en ranking 972, copias {1: 894, 2: 78}
+  OGS3: genes letales en ranking 1027, copias {1: 952, 2: 75}
+
+top100 compartido (por gen Dmai): 96/100; genes Dmai comunes 7171; Spearman de rank en comunes 0.992
+controles (rank RefSeq -> OGS3):
+  PSMB5: [25] -> [27]
+  Vha55: [216] -> [219]
+  Vha36-1: [125] -> [128]
+
+en el top100 OGS3 y no en el RefSeq: 4 (rank_refseq vacio = no estaba en el ranking RefSeq)
+                      rank  rank_refseq   dmel        iB  dali11  dali22  copias_dmai
+dmai_representativo                                                                  
+Dmai|Dalbulus_mai...    26        299.0   Rab6  iB_00268    90.0    90.0            1
+Dmai|Dalbulus_mai...    47          NaN    Cam  iB_09691    70.0    70.0            2
+Dmai|Dalbulus_mai...    60          NaN   atms  iB_02644   100.0   100.0            1
+Dmai|Dalbulus_mai...    74        195.0  salsa  iB_08598   100.0   100.0            1
+exit 0
+=== rnaseq_integracion.py 17:07:57
+genes Helixer con soporte RNA-seq (cob>=0.5, lect>=10): 17023/22199
+  top100 con soporte: 100/100
+puente GITV01: RBH 5622/22199; por locus 10407; cualquiera 11236
+  top100 con id_GITV01 (RBH): 46; con soporte_GITV01: 70
+confianza top100: {'alta': 70, 'media': 30}
+confianza todos: {'alta': 5818, 'media': 2000, 'baja': 51, 'media_revisar': 12}
+paralogo_resuelto (todos con 2 copias): {'ambas_con_lecturas': 857, 'solo_una': 35, 'ninguna': 4}
+paralogo_resuelto top100: {'ambas_con_lecturas': 3}
+paralogos_prot top100 (genes Dmai >=40% id, cob>=50%): {0: 73, 1: 10, 2: 3, 3: 14} (3 = >=3)
+MRFV via: {'': 56, 'rbh': 10, 'hit_directo': 10, 'locus': 7}
+loci_genoma top100: {1.0: 100}
+MRFV: 83 transcriptos DE, mapeados a gen Helixer: 27; en el ranking: 24
+estabilidad #25 Prosbeta5 (PSMB5): CV_estadios 0.114 (percentil 0.04) | CV_condiciones 0.054 (percentil 0.10)
+estabilidad #125 Vha36-1 (V-ATPasa D): CV_estadios 0.268 (percentil 0.19) | CV_condiciones 0.08 (percentil 0.20)
+estabilidad #216 Vha55 (V-ATPasa B): CV_estadios 0.33 (percentil 0.25) | CV_condiciones 0.045 (percentil 0.07)
+estabilidad_estadios mediana todos 0.560 / top100 0.252
+estabilidad_condiciones mediana todos 0.150 / top100 0.072
+Spearman CV_condiciones vs score: -0.342 | CV_estadios vs CV_condiciones: 0.439
+
+top100 con confianza baja:
+Empty DataFrame
+Columns: [rank, dmel, dmai_representativo, rnaseq_cobertura, rnaseq_lecturas, TPM_minimo]
+Index: []
+exit 0
+=== verificar_candidatos.py 17:08:39
+excluidos antes de completar 20 (rank <= 24): 4
+  #3 Vha16-2,Vha16-3: 2 copias con lecturas, paralogo prot 83%
+  #13 Act5C: paralogo prot 99%
+  #14 Arf1: paralogo prot 79%
+  #16 eIF4A: paralogo prot 73%
+ rank         dmel    stringtie  intrones_helixer  intrones_confirmados  intrones_solo_stringtie  cds_cubierto       estado      id_GITV01 confianza  riesgo_paralogo  paralogos_prot
+    1         Rpt1  STRG.7307.1                 9                     7                      1           0.967 discrepancia GITV01000273.1      alta            False               5
+    2         Rpt5 STRG.22351.1                 7                     7                      0           1.000   confirmado            NaN     media            False               5
+    4         Rpt2  STRG.3949.1                10                     7                      1           0.967 discrepancia GITV01005813.1      alta            False               5
+    5         EloC STRG.15183.1                 2                     2                      0           1.000   confirmado            NaN      alta            False               0
+    6   Rpt6,Rpt6R STRG.13433.1                 7                     6                      1           0.993 discrepancia            NaN     media            False               6
+    7          mts  STRG.7615.1                 5                     5                      0           1.000   confirmado            NaN      alta            False              10
+    8        Rpn11  STRG.6641.4                14                    12                      0           0.530 discrepancia            NaN      alta            False               0
+    9         Rpn6 STRG.12936.1                 0                     0                      0           1.000   confirmado            NaN     media            False               0
+   10        Hsp83 STRG.14232.1                 2                     2                      0           1.000   confirmado            NaN      alta            False               1
+   11 snRNP-U1-70K STRG.15363.1                 8                     8                      0           1.000   confirmado GITV01001014.1      alta            False               0
+   12         Sar1  STRG.1456.2                 6                     4                      1           1.000 discrepancia            NaN      alta            False               0
+   15   Rpt4,Rpt4R  STRG.8886.1                 8                     8                      0           1.000   confirmado GITV01001584.1      alta            False               6
+   17       Hel25E  STRG.9118.1                11                     7                      2           0.958 discrepancia GITV01000615.1      alta            False               0
+   18       CG1703 STRG.16537.1                13                    10                      1           0.976 discrepancia            NaN      alta            False               1
+   19        Vha26 STRG.18262.1                 5                     3                      1           0.996 discrepancia            NaN     media            False               1
+   20          hay STRG.12557.1                16                    10                      5           0.978 discrepancia            NaN      alta            False               0
+   21   Rpt3,Rpt3R STRG.19698.1                 8                     8                      0           1.000   confirmado GITV01000607.1      alta            False               6
+   22        TER94 STRG.21595.1                14                    12                      1           0.927 discrepancia GITV01001730.1      alta            False               0
+   23     gskt,sgg STRG.20064.7                 8                     7                      0           0.862 discrepancia            NaN      alta            False               0
+   24       VhaSFD  STRG.6645.2                 9                     9                      0           1.000   confirmado GITV01003434.1      alta            False               0
+{'discrepancia': 11, 'confirmado': 9}
+exit 0

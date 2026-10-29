@@ -1,0 +1,27 @@
+excluidos antes de completar 20 (rank <= 24): 4
+  #3 Vha16-2,Vha16-3: 2 copias con lecturas, paralogo prot 83%
+  #13 Act5C: paralogo prot 99%
+  #14 Arf1: paralogo prot 79%
+  #16 eIF4A: paralogo prot 73%
+ rank         dmel    stringtie  intrones_helixer  intrones_confirmados  intrones_solo_stringtie  cds_cubierto       estado      id_GITV01 confianza  riesgo_paralogo  paralogos_prot
+    1         Rpt1  STRG.7307.1                 9                     7                      1           0.967 discrepancia GITV01000273.1      alta            False               5
+    2         Rpt5 STRG.22351.1                 7                     7                      0           1.000   confirmado            NaN     media            False               5
+    4         Rpt2  STRG.3949.1                10                     7                      1           0.967 discrepancia GITV01005813.1      alta            False               5
+    5         EloC STRG.15183.1                 2                     2                      0           1.000   confirmado            NaN      alta            False               0
+    6   Rpt6,Rpt6R STRG.13433.1                 7                     6                      1           0.993 discrepancia            NaN     media            False               6
+    7          mts  STRG.7615.1                 5                     5                      0           1.000   confirmado            NaN      alta            False              10
+    8        Rpn11  STRG.6641.4                14                    12                      0           0.530 discrepancia            NaN      alta            False               0
+    9         Rpn6 STRG.12936.1                 0                     0                      0           1.000   confirmado            NaN     media            False               0
+   10        Hsp83 STRG.14232.1                 2                     2                      0           1.000   confirmado            NaN      alta            False               1
+   11 snRNP-U1-70K STRG.15363.1                 8                     8                      0           1.000   confirmado GITV01001014.1      alta            False               0
+   12         Sar1  STRG.1456.2                 6                     4                      1           1.000 discrepancia            NaN      alta            False               0
+   15   Rpt4,Rpt4R  STRG.8886.1                 8                     8                      0           1.000   confirmado GITV01001584.1      alta            False               6
+   17       Hel25E  STRG.9118.1                11                     7                      2           0.958 discrepancia GITV01000615.1      alta            False               0
+   18       CG1703 STRG.16537.1                13                    10                      1           0.976 discrepancia            NaN      alta            False               1
+   19        Vha26 STRG.18262.1                 5                     3                      1           0.996 discrepancia            NaN     media            False               1
+   20          hay STRG.12557.1                16                    10                      5           0.978 discrepancia            NaN      alta            False               0
+   21   Rpt3,Rpt3R STRG.19698.1                 8                     8                      0           1.000   confirmado GITV01000607.1      alta            False               6
+   22        TER94 STRG.21595.1                14                    12                      1           0.927 discrepancia GITV01001730.1      alta            False               0
+   23     gskt,sgg STRG.20064.7                 8                     7                      0           0.862 discrepancia            NaN      alta            False               0
+   24       VhaSFD  STRG.6645.2                 9                     9                      0           1.000   confirmado GITV01003434.1      alta            False               0
+{'discrepancia': 11, 'confirmado': 9}
